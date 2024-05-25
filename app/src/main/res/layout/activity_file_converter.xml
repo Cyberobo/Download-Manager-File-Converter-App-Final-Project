@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pink"
+    tools:context=".FileConverter.FileConverterActivity">
+
+
+
+    <ImageButton
+        android:id="@+id/backhomebutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/lightred"
+        android:src="@drawable/backhomearrow_icon"
+        android:tint="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    </ImageButton>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/imgtopdf"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="@color/white"
+                android:scaleType="centerInside"
+                android:src="@drawable/imgtopdf"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="100dp"
+                android:text="IMG           PDF"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/margepdf"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="@color/white"
+                android:scaleType="centerInside"
+                android:src="@drawable/margepdf"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="100dp"
+                android:text="MARGE PDF"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageButton
+                android:id="@+id/pdftoexel"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="@color/white"
+                android:scaleType="centerInside"
+                android:src="@drawable/pdftoexel"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="100dp"
+                android:text="PDF           EXEL"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/exeltopdf"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="@color/white"
+                android:scaleType="centerInside"
+                android:src="@drawable/exeltopdf" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="100dp"
+                android:text="EXEL           PDF"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/wordtopdf"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="@color/white"
+                android:scaleType="centerInside"
+                android:src="@drawable/wordtopdf"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="100dp"
+                android:text="WORD             PDF"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/pdftoword"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="@color/white"
+                android:scaleType="centerInside"
+                android:src="@drawable/pdftoword"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="100dp"
+                android:text="PDF              WORD"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+
+
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Download Manager / File Converter</string>
+
+    <!--LOGIN PAGE-->
+    <string name="let_me_in">Let me in</string>
+    <string name="sign_up_question">SIGN UP?</string>
+    <string name="SignIn">SIGN IN</string>
+
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <!--SIGN UP PAGE-->
+    <string name="SignUp">SIGN UP</string>
+    <string name="sign_in_question">Do you have a account?</string>
+
+    <!--APPLICATION TOLLS CHOSE-->
+    <string name="application_tools">Application tools</string>
+    <string name="download_manager">Download Manager</string>
+    <string name="file_converter">File Converter</string>
+
+    <!--LINK DM PAGE-->
+    <string name="enter_your_link">Enter your link</string>
+    <string name="download">Download</string>
+
+    <!--DOWNLAOD LIST PAGE-->
+    <string name="download_list">Download list</string>
+
+    <!--SETTINGS PAGE LIST-->
+    <string name="file_settings">File Settings</string>
+    <string name="privacy_security">Privacy &amp; Security</string>
+    <string name="languages">Languages</string>
+    <string name="send_us_a_message">Send us a message</string>
+    <string name="about_us">About us</string>
+    <string name="log_out">Log Out</string>
+
+    <!--LANGUAGES PAGE-->
+    <string name="languages_select">Languages</string>
+    <string name="english">english</string>
+    <string name="turkish">turkish</string>
+
+
+</resources>

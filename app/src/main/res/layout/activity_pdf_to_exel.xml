@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pink"
+    tools:context=".FileConverter.PdfToExel">
+
+    <ImageButton
+        android:id="@+id/backhomebutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/lightred"
+        android:src="@drawable/backhomearrow_icon"
+        android:tint="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    </ImageButton>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/pdftoexel"
+            android:id="@+id/imageView"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:id="@+id/pdftoexeltext"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/pdftoexeluploadbutton"
+            android:background="@drawable/shapeloginsignup"
+            android:src="@drawable/upload_icon"
+            android:tint="@color/white"
+            android:backgroundTint="@color/my_primary"
+            android:layout_marginTop="100dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

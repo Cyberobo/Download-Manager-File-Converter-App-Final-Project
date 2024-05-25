@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "338838090996",
+    "firebase_url": "https://downloadmananagerfileconverter-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "downloadmananagerfileconverter",
+    "storage_bucket": "downloadmananagerfileconverter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338838090996:android:bbf69b654099c062de5aa1",
+        "android_client_info": {
+          "package_name": "com.emre.filedownloadmanagerconverter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXFFT3XQZUH221U7D1dZhzkj50kmq_8Qk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

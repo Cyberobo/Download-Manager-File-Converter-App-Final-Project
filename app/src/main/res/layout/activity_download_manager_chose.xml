@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pink"
+    tools:context=".ui.DownloadManagerChose">
+
+    <ImageButton
+        android:id="@+id/backhomebutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/lightred"
+        android:src="@drawable/backhomearrow_icon"
+        android:tint="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    </ImageButton>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+        <ImageButton
+            android:id="@+id/linkdm"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white"
+            android:scaleType="centerInside"
+            android:src="@drawable/linkdm"
+            />
+
+        <ImageButton
+            android:id="@+id/ytdm"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white"
+            android:scaleType="centerInside"
+            android:src="@drawable/youtube_icon"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp">
+        <ImageButton
+            android:id="@+id/instadm"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white"
+            android:scaleType="centerInside"
+            android:src="@drawable/instagram_icon"
+            />
+
+        <ImageButton
+            android:id="@+id/facedm"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/white"
+            android:scaleType="centerInside"
+            android:src="@drawable/facebook_icon"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

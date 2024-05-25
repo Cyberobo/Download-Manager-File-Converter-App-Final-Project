@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_primary"
+    android:gravity="center"
+
+    tools:context=".ui.HomeFragment">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:gravity="center"
+            android:text="@string/application_tools"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/downloadmanagerchose"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="@color/white"
+                android:scaleType="centerInside"
+                android:src="@drawable/select_download_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="100dp"
+                android:text="@string/download_manager"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/fileconverter"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="@color/white"
+                android:scaleType="centerInside"
+                android:src="@drawable/convert_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="180dp"
+                android:text="@string/file_converter"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

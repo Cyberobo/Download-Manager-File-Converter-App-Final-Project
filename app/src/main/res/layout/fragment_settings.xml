@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    android:orientation="vertical"
+    tools:context=".Settings.SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@drawable/shape"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/filesettingsbutton"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:id="@+id/filesettingsid"
+                android:layout_height="40dp"
+                android:src="@drawable/filesettins_icon"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:text="@string/file_settings"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:layout_toEndOf="@+id/filesettingsid"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_icon"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@drawable/shape"
+        android:id="@+id/languagesbutton"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/privacybutton"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:id="@+id/privacyid"
+                android:layout_height="40dp"
+                android:src="@drawable/privacy_icon"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:text="@string/privacy_security"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:layout_toEndOf="@+id/privacyid"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_icon"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:id="@+id/languageid"
+                android:layout_height="40dp"
+                android:src="@drawable/language_icon"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:text="@string/languages"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:layout_toEndOf="@+id/languageid"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_icon"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@drawable/shape"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sendusmessagebutton"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:id="@+id/sendmesseageid"
+                android:layout_height="40dp"
+                android:src="@drawable/sendmessage_icon"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:text="@string/send_us_a_message"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_toEndOf="@+id/sendmesseageid"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_icon"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aboutusbutton"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:id="@+id/aboutusid"
+                android:layout_height="40dp"
+                android:src="@drawable/aboutus_icon"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:text="@string/about_us"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_toEndOf="@+id/aboutusid"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_icon"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@drawable/shape"
+        android:id="@+id/logoutbutton"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:id="@+id/logoutid"
+                android:layout_height="40dp"
+                android:src="@drawable/logout_icon"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:text="@string/log_out"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@+id/logoutid"
+                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

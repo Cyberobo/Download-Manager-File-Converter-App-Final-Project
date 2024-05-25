@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pink"
+    tools:context=".Settings.LanguagesActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/backhomebutton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/lightred"
+            android:src="@drawable/backhomearrow_icon"
+            android:tint="@color/black"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"/>
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/my_primary"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/languages_select"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                />
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/languages_select"
+        android:layout_margin="40dp"
+        android:background="@drawable/shape"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/auto_complate_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:background="@drawable/shape"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</LinearLayout>

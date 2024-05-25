@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+
+    <color name="my_primary">#ED213A</color>
+    <color name="my_secondary">#F3D951</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkred">#93291E</color>
+    <color name="lightred">#FF7F7F</color>
+    <color name="bordo">#800000</color>
+    <color name="pink">#F6D4DA</color>
+    <color name="orangebetwwenred">#FF4500</color>
+    <color name="lightgray">#CCCCCC</color>
+
+
+    <color name="startcolor">#c31432</color>
+    <color name="endcolor">#240b36</color>
+
+    <color name="barloadingcolor">#FF6961</color>
+    <color name="barloadingcolor2">#E74C3C</color>
+    <color name="barloadingcolor3">#FF0000</color>
+
+
+</resources>

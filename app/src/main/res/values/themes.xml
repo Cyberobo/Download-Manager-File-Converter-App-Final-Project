@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FileDownloadManagerConverter" parent="Theme.Material3.DayNight.NoActionBar">
+
+
+        <!--primary color-->
+        <item name="colorPrimary">@color/my_primary</item>
+        <item name="colorPrimaryVariant">@color/darkred</item>
+        <item name="colorOnPrimary">@color/lightred</item>
+
+        <!--secondary color-->
+        <item name="colorSecondary">@color/endcolor</item>
+        <item name="colorSecondaryVariant">@color/my_primary</item>
+        <item name="colorOnSecondary">@color/my_secondary</item>
+
+
+
+    </style>
+
+    <style name="Theme.FileDownloadManagerConverter" parent="Base.Theme.FileDownloadManagerConverter" />
+</resources>

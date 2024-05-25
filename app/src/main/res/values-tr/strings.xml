@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Download Manager / File Converter</string>
+
+    <!--LOGIN PAGE-->
+    <string name="let_me_in">Beni içeri sok</string>
+    <string name="sign_up_question">Kayit ol?</string>
+    <string name="SignIn">Giris</string>
+
+
+    <string name="email">E-posta</string>
+    <string name="password">Sifre</string>
+
+    <!--SIGN UP PAGE-->
+    <string name="SignUp">Kayit ol</string>
+    <string name="sign_in_question">Bir hesabin var mi?</string>
+
+    <!--APPLICATION TOLLS CHOSE-->
+    <string name="application_tools">Uygulama Araclari</string>
+    <string name="download_manager">Indirme Yoneticisi</string>
+    <string name="file_converter">Dosya Donusturucusu</string>
+
+    <!--LINK DM PAGE-->
+    <string name="enter_your_link">Linkinizi girin</string>
+    <string name="download">Indir</string>
+
+    <!--DOWNLAOD LIST PAGE-->
+    <string name="download_list">Indirme Listesi</string>
+
+    <!--SETTINGS PAGE LIST-->
+    <string name="file_settings">Dosya Ayarlari</string>
+    <string name="privacy_security">Gizlilik &amp; Guvenlik</string>
+    <string name="languages">Diller</string>
+    <string name="send_us_a_message">Bize bir mesaj gonder</string>
+    <string name="about_us">Hakkimizda</string>
+    <string name="log_out">Cikis Yap</string>
+
+    <!--LANGUAGES PAGE-->
+    <string name="languages_select">Diller</string>
+    <string name="english">Ingilizce</string>
+    <string name="turkish">Turkce</string>
+
+
+</resources>

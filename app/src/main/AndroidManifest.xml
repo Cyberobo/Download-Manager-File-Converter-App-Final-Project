@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- permissions -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FileDownloadManagerConverter"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Settings.LanguagesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FileConverter.PdfToWord"
+            android:exported="false" />
+        <activity
+            android:name=".FileConverter.WordToPdf"
+            android:exported="false" />
+        <activity
+            android:name=".FileConverter.ExelToPdf"
+            android:exported="false" />
+        <activity
+            android:name=".FileConverter.PdfToExel"
+            android:exported="false" />
+        <activity
+            android:name=".FileConverter.MargePdf"
+            android:exported="false" />
+        <activity
+            android:name=".FileConverter.ImageToPdf"
+            android:exported="false" />
+        <activity
+            android:name=".YoutubeDm.YoutubeDmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LinkDm.LinkDmActivitiy"
+            android:exported="false" />
+        <activity
+            android:name=".ui.DownloadManagerChose"
+            android:exported="false" />
+        <activity
+            android:name=".FacebookDm.FacebookDmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InstagramDm.InstagramDmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountManagment.SignUpAcitvity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountManagment.Loginactivity"
+            android:exported="false" />
+        <activity
+            android:name=".FileConverter.FileConverterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

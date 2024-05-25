@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".LinkDm.LinkDmActivitiy">
+
+
+    <ImageButton
+        android:id="@+id/backhomebutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/lightred"
+        android:src="@drawable/backhomearrow_icon"
+        android:tint="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="80dp"
+        >
+
+        <EditText
+            android:id="@+id/urllink"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/shape"
+            android:hint="@string/enter_your_link"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/download"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:id="@+id/downloadbutton"
+            />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/data_list"
+            android:layout_marginTop="20dp"
+
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

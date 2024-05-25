@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/line1">
+
+            <ImageView
+                android:padding="5dp"
+                android:tint="@color/barloadingcolor3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/downloadlist_icon"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="80dp">
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="File Name"
+                    android:id="@+id/file_title"
+                    android:textColor="@color/black"
+                    />
+                <ProgressBar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:progress="10"
+                    android:progressTint="@color/barloadingcolor3"
+                    android:id="@+id/file_progress"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Downloaded : 15mb"
+                        style="@style/TextAppearance.AppCompat.Caption"
+                        android:layout_weight="1"
+                        android:id="@+id/file_size"
+                        android:textColor="@color/black"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pending"
+                        android:gravity="end"
+                        style="@style/TextAppearance.AppCompat.Caption"
+                        android:layout_weight="1"
+                        android:id="@+id/file_status"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:text="PAUSE"
+                android:layout_marginLeft="-70dp"
+                android:padding="0dp"
+                android:id="@+id/pause_resume"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/line1"
+            android:background="#606060"
+            android:layout_marginTop="10dp"/>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
